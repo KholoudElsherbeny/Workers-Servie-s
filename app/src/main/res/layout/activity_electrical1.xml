@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ElectricalActivity">
+
+
+        <TextView
+            android:id="@+id/electrical_textView_"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="UNIT TYPE"
+            android:textColor="#25b5da"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/electrical_button_electrical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_light"
+            android:text="LIGHTING "
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/electrical_button_plumbing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_power_strip"
+            android:text="POWER OUTLETS"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/electrical_button_cleaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_electrical_panel"
+            android:text="DB BOARD"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/electrical_button_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_energy"
+            android:text="Other"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+</ScrollView>

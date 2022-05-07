@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/cleaning_textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:text="UNIT TYPE"
+            android:textColor="#70DEFA"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/cleaning_button_deep_cleaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_cleaning"
+            android:text="DEEP CLEANING "
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cleaning_button_standard_cleaning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_spray"
+            android:text="STANDARD CLEANING"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cleaning_button_furniture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_vacuum"
+            android:text="FURNITURE AND CARPET CLEANING"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cleaning_button_facade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_window_cleaning"
+            android:text="FACADE CLEANING"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cleaning_button_waterTank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_bucket"
+            android:text="WATER CLEANING"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/cleaning_button_other"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:drawableLeft="@drawable/ic_broom"
+            android:text="Other"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>

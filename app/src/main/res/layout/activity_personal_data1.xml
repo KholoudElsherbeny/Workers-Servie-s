@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="vertical"
+        tools:context=".personal_data">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="٨dp"
+            tools:layout_editor_absoluteY="٨dp">
+
+            <TextView
+                android:id="@+id/text_personal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:text="Personal data &amp; location"
+                android:textColor="#25b5da"
+                android:textSize="33sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corner"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Name:"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/enter_your_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter your name"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:digits="abcdefghijklm nopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZابتثجحخدذرزسشصضطظعغفقكلمنهويءئ"
+                    android:textColorHint="#25b5da"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:textColor="#25b5da"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corner"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Phone number:"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/enter_your_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter your number"
+                    android:maxLength="11"
+                    android:inputType="number"
+                    android:textColorHint="#25b5da"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:textColor="#25b5da"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corner"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Address:"
+                    android:textColor="@color/white" />
+
+                <EditText
+                    android:id="@+id/enter_your_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="enter your address"
+                    android:textColorHint="#25b5da"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:textColor="#25b5da"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="6dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/corner"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:text="Governorate:"
+                    android:textColor="@color/white" />
+
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:entries="@array/govern"
+                    android:background="@drawable/corner"
+                    android:spinnerMode="dialog"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/personal_data_button_Submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="180dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/corner"
+                android:text="Submit"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

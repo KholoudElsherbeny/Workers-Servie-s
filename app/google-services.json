@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "252952546171",
+    "project_id": "workers-services",
+    "storage_bucket": "workers-services.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252952546171:android:c0c44585a1747272ca4bde",
+        "android_client_info": {
+          "package_name": "com.G2.workersservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252952546171-ufqrk7ngfu2nkrvb2r32v3a7b70eqknn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAedToYURpx3C9Pq80ZfJcUMGYq6_NnmuM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252952546171-ufqrk7ngfu2nkrvb2r32v3a7b70eqknn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
